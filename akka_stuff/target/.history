@@ -1,0 +1,9 @@
+run org.castspell.akka.example001.Example001
+!
+!
+run org.castspell.akka.example001.Example001
+run org.castspell.akka.example001.Example001
+run org.castspell.akka.example001.Example001
+quit
+quit()
+exit
