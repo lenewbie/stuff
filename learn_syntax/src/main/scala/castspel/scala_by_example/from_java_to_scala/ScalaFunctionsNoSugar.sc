@@ -12,6 +12,3 @@ val costOfFourSugars = new NoSugarFunction().apply(4)
 // with functions Scala sugar (Scala style)
 def sugar(noOf: Int) = noOf * 2.50
 val costOfFourSugarsAgaing = sugar(2)
-
-
-

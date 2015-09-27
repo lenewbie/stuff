@@ -1,5 +1,7 @@
 package castspel.scala_by_example;
 
+import MathAlgorithms.powerOfTwo
+
 object CurryingStuff {
 
   def sigma(f: Int => Int): (Int, Int) => Int = {
@@ -11,8 +13,6 @@ object CurryingStuff {
   }
 
   def sumInts = sigma(x => x)
-
-  def sumSquares2 = sigma(x => x * x)
 
   def sumSquares = sigma(x => x * x)
 
