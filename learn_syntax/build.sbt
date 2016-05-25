@@ -2,5 +2,7 @@ name := "learn_syntax"
 
 version := "1.0"
 
-libraryDependencies += "org.scalatest" % "scalatest_2.11" % "2.2.4" % "test"
+scalaVersion := "2.12.0-M4"
+
+libraryDependencies += "org.scalatest" % "scalatest_2.12.0-M4" % "3.0.0-M16-SNAP4" % Test
     
