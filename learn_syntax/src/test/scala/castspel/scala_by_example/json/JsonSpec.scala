@@ -19,15 +19,15 @@ class JsonSpec extends FlatSpec with Matchers {
     jsonNumber.show shouldBe "\"CC those fools!\""
   }
 
-  "show" should "display false boolean as false" in {
-    val jsonNumber = JBool(false)
-    jsonNumber.show shouldBe "false"
-  }
+//  "show" should "display false boolean as false" in {
+//    val jsonNumber = JBool(false)
+//    jsonNumber.show shouldBe "false"
+//  }
 
-  "show" should "display true boolean as true" in {
-    val jsonNumber = JBool(true)
-    jsonNumber.show shouldBe "true"
-  }
+//  "show" should "display true boolean as true" in {
+//    val jsonNumber = JBool(true)
+//    jsonNumber.show shouldBe "true"
+//  }
 
 //  "show" should "display object elements as quoted key: value" in {
 //    val jsonNumber = JObject(true)

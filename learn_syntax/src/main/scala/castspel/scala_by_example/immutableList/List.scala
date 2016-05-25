@@ -14,13 +14,13 @@ trait List[+T] {
   def tail: List[T]
   def prepend[U >: T](elem: U): List[U] = new Cons(elem, this) // lower bound
 
-  def length: Int = {
-    def lengthHelper(soFar: Int, subList: List[T]): Int = subList match {
-      case Nil => soFar
-      case Cons[T](aHead, aRest) => lengthHelper(soFar + 1, aRest)
-    }
-    lengthHelper(0, this)
-  }
+//  def length: Int = {
+//    def lengthHelper(soFar: Int, subList: List[T]): Int = subList match {
+//      case Nil => soFar
+//      case Cons[T](aHead, aRest) => lengthHelper(soFar + 1, aRest)
+//    }
+//    lengthHelper(0, this)
+//  }
 
 
 //  // return new collection, each element is result of function

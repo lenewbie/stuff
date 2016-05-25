@@ -6,9 +6,10 @@ package castspel.patterns.monads.coursea_reactive
 trait Monad[T] {
 
   /* bind */
-  def flatMap[U](f: T => Monad[U]):Monad[U]
+  def flatMap[U](f: T => Monad[U]): Monad[U]
 
   def unit[T](x: T): Monad[T]
+}
 
 
 
